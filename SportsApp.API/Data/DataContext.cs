@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using SportsApp.API.Models;
+using System.Linq;
 
 namespace SportsApp.API.Data
 {
@@ -9,6 +10,7 @@ namespace SportsApp.API.Data
         
         public DbSet<Value> Values { get; set; }
 
+        public DbSet<User> Users { get; set; }
     
-}
     }
+}
